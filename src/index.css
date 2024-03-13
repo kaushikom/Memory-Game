@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: rgba(0, 0, 0);
+    background-image: url('./assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: fill;
+    font-family: 'Times New Roman', Times, serif;
+    background-position: left;
+    color: white;
+}
+
+ @media (max-width: 768px) {
+    body {
+    background-size: cover; 
+     background-position: center; 
+     }
+} 
